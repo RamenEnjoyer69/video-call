@@ -6,7 +6,6 @@ import {
   ParticipantTile,
   RoomAudioRenderer,
   useTracks,
-  RoomContext,
   LiveKitRoom,
 } from "@livekit/components-react";
 import { Room, Track } from "livekit-client";
@@ -45,7 +44,7 @@ export default function Page() {
     if (username) {
       setName(username);
     }
-  }, [id]);
+  }, [username]);
   useEffect(() => {
     if (id) {
       setRoom(id);

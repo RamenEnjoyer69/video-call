@@ -1,4 +1,4 @@
-import { ParticipantTile, TrackLoop } from "@livekit/components-react";
+import { ParticipantTile } from "@livekit/components-react";
 
 const Tile = () => {
   return (
